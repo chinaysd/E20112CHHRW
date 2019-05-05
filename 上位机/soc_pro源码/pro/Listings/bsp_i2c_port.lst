@@ -1,4 +1,4 @@
-C51 COMPILER V9.59.0.0   BSP_I2C_PORT                                                      03/25/2019 15:27:08 PAGE 1   
+C51 COMPILER V9.59.0.0   BSP_I2C_PORT                                                      05/05/2019 09:52:10 PAGE 1   
 
 
 C51 COMPILER V9.59.0.0, COMPILATION OF MODULE BSP_I2C_PORT
@@ -62,7 +62,7 @@ line level    source
   52          int IIC_Port_Read(int ID ,int Func ){
   53   1             if(ID == 0){
   54   2                    if(Func == 0){
-C51 COMPILER V9.59.0.0   BSP_I2C_PORT                                                      03/25/2019 15:27:08 PAGE 2   
+C51 COMPILER V9.59.0.0   BSP_I2C_PORT                                                      05/05/2019 09:52:10 PAGE 2   
 
   55   3                           return SDA0_Read();
   56   3                    }else if(Func == 1){
